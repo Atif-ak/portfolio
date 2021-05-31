@@ -1,0 +1,34 @@
+body{
+    background-image: url('../front.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+        /* overflow: hidden; */
+
+}
+.main{
+    min-width: 400px;
+    min-height: 600px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    /* margin-left: 246px; */
+    font-size: 70px;
+    font-family: 'Noto Serif JP', serif;
+    color: rgb(24, 48, 158);
+    box-shadow: 3px 4px 5px 0px rgba(245,238,238,0.75);
+-webkit-box-shadow: 3px 4px 5px 0px rgba(245,238,238,0.75);
+-moz-box-shadow: 3px 4px 5px 0px rgba(245,238,238,0.75);
+
+}
+.pre{
+   margin-right: 50px;
+   margin-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Noto Serif JP', serif;
+        color:rgb(221, 220, 235);
+}
+
